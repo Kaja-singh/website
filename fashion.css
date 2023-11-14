@@ -1,0 +1,193 @@
+body{
+    background-color:black;
+}
+.form{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 140%;
+    color: antiquewhite;
+    float: right;
+    margin-top:20px;
+margin-right: 394px;}
+
+
+.small{
+    height: 30%;
+    width: 20%;
+    transition: transform 0.3s;/* add a transistion to the transforms property*/
+}
+.small:hover{
+    transform: scale(1.1);/* increase the size of the image on hover*/
+}
+.xyz{
+    height: 50%;
+    width: 60%;
+}
+.main{
+    margin-left: 110px;
+}
+.header{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 400%;
+    text-align: center ;
+    color: antiquewhite;
+}
+#table{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    margin-left: 65px;
+    color:  antiquewhite;
+    font-weight: bolder;
+}
+.horizontal-line {
+    border: none; /* Remove the default line style */
+    border-top: 2px solid #ffffff; /* Set the line color and thickness */
+    margin: 20px 0; /* Add spacing above and below the line */
+    width: auto;
+}
+#Align{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 140%;
+     font-family:'Courier New', Courier, monospace;}
+
+.centered-image {
+    height: 50%;
+    width:  50%;
+    display: inline-block;
+}
+.menu-icon {
+        display: block;
+        color:#ffffff;
+    }
+nav{
+    color:#ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 140%;
+    font-weight: bold;
+}
+.horizontal-line {
+    border: none; /* Remove the default line style */
+    border-top: 4px solid #ffffff; /* Set the line color and thickness */
+    margin: 20px 0; /* Add spacing above and below the line */
+    width: auto;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: solid black;
+}
+.item {
+    padding: 0px;
+    border: 0px solid #ccc;
+    margin: 0 10px; /* Adjust the margin for the desired gap */
+}
+.home_pic{
+    width:80%;
+}
+
+.an{
+    position:relative;
+    animation-name: img1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes img1{
+    from{
+        width: 400px;
+    }
+    to{
+        width: 600px;
+    }
+}
+.product{
+    transition: transform 0.3 ease;
+}
+.product:hover{
+    transform: scale(1.1);
+}
+ a {
+    color: white; /* This is the default blue color (#0000ff) */
+    text-decoration: none; /* This removes the underline that is usually associated with links */
+    transition: transform 0.3 ease;
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+.body {
+    margin: 0;
+    padding: 0;
+    background-image: url('building_img.jpeg'); /* Set the background image */
+    background-size: cover; /* Adjusts the background image size to cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    font-family: Arial, sans-serif; /* Example font family for text */
+}
+.background-container {
+    text-align: center; /* Center content horizontally */
+    padding: 1px; /* Add padding for better spacing */
+}
+h1 {
+    font-size: 400% ;
+    color: white; /* Text color for better contrast with the background */
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue' sans-serif;
+}
+
+.main1{.horizontal-line {
+    border: none; /* Remove the default line style */
+    border-top: 4px solid #ffffff; /* Set the line color and thickness */
+    margin: 20px 0; /* Add spacing above and below the line */
+    width: auto;
+}
+    color:whitesmoke
+}
+.p{
+    font-size: 180%;
+    font-family: cursive;
+}
+h2{
+    color: #e2cb2b;
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#contact {
+    font-size: 180%
+
+}
+.black{color: black}
+.right{ text-align: right;}
+#body{
+    background-color: beige;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.main2{float: left;
+    width: 403px;
+    height: 221px;
+    margin-top: 17px;
+    margin-left: 534px;
+    padding: 1em;
+    border: 2px solid black;
+     }
+.center{
+    color:black;
+    font-size: 200%;
+    font: 100;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.text{
+    color:black;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+
+
+
