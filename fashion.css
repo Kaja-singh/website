@@ -1,13 +1,15 @@
 body{
     background-color:black;
+    margin: 0px;
+    padding: 0px;
 }
 .form{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 140%;
     color: antiquewhite;
     float: right;
-    margin-top:20px;
-margin-right: 394px;}
+    margin-top:20 px;
+margin-right: 394 px;}
 
 
 .small{
