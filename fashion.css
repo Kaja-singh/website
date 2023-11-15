@@ -1,7 +1,6 @@
 body{
     background-color:black;
-    margin: 0px;
-    padding: 0px;
+    
 }
 .form{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -119,8 +118,6 @@ a:hover{
     transform: scale(1.1);
 }
 .body {
-    margin: 0;
-    padding: 0;
     background-image: url('building_img.jpeg'); /* Set the background image */
     background-size: cover; /* Adjusts the background image size to cover the entire viewport */
     background-position: center; /* Center the background image */
